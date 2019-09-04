@@ -1,6 +1,6 @@
 # Predicting Home Prices
 
-This project allowed an opportunity to utilize a `linear regression model` to predict home prices.
+This project allowed an opportunity to utilize a `regression model` to predict home prices.
 
 ### Process:
 
