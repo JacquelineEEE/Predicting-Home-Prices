@@ -45,7 +45,7 @@ Used visualizations to compare the features to the original y-values and the nat
 
 ![Overall Quality](./images/overall_qual.png)
 
-![Gr Living Area](./images/gr_living_area.png)
+![Gr Living Area](./images/gr_living.png)
 
 
 **6. Modeling, and Comparing Coefficients and Loss Functions:**
