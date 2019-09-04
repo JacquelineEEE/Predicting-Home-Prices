@@ -20,13 +20,13 @@ Brief data summary:
 
 1. `Finding and replacing null values` in both the train and test datasets, and making decisions about what to do. Many of the null values existed because the property did not have the specific feature (ie: pool). In that case, nulls were replaced with zeros.
 
-[Null Values](./images/null_values.png)
+![Null Values](./images/null_values.png)
 
 **3. Feature Engineering:**
 
 1. `Numerizing` some of the ordinal variables.
 
-[Ordinal Variables](./images/ordinal_mapped.png)
+![Ordinal Variables](./images/ordinal_mapped.png)
 
 2. Creating `dummy variables`.
 
@@ -43,9 +43,9 @@ Any feature having a `correlation >= .30` was selected as a feature for the mode
 
 Used visualizations to compare the features to the original y-values and the natural log of y-values. This, in addition to the distribution being more normal, was a determining factor in my using the natural log of y for the model.
 
-[Overall Quality](./images/overall_qual.png)
+![Overall Quality](./images/overall_qual.png)
 
-[Gr Living Area](./images/gr_living_area.png)
+![Gr Living Area](./images/gr_living_area.png)
 
 
 **6. Modeling, and Comparing Coefficients and Loss Functions:**
@@ -65,4 +65,4 @@ There was slightly less variance in the lasso coefficient range than the ridge r
 **7. Model Visualizations:**
 
 Comparing the predictions to actual values, and looking at the residuals.
-[Lasso Visualizations](./images/lasso_viz.png)
+![Lasso Visualizations](./images/lasso_viz.png)
